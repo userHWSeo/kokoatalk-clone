@@ -1,0 +1,23 @@
+.settings-list {
+  margin: 0px 0px;
+}
+.settings-setting {
+  padding: 18px 18px;
+  border-bottom: 1px solid rgb(191, 245, 199);
+  font-size: 16px;
+  display: flex;
+
+  align-items: center;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.settings-setting i {
+  margin-right: 10px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+.settings-setting:hover {
+  border-radius: 20px;
+  background-color: rgb(243, 172, 172);
+}
